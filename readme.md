@@ -37,7 +37,7 @@ nohup python3 main_sim.py --batch_size=50 --z_dim=2 --lrD=0.000004 --lrG=0.00000
 ```
 
 
-##
+## Arrhythmia data
 step1:
 ```
 cd model_arrhythmia/
