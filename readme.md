@@ -49,11 +49,11 @@ Downlowd ALAD(https://github.com/houssamzenati/Adversarially-Learned-Anomaly-Det
 
 step3:
 ```
-python3 main_arrhythmia.py --batch_size=30 --z_dim=50 --h_dim=128 --gpu_ids=0  --input_size=274 --iter_gan=200000 --llk_way=eig --dataset=arrhythmia --lrD=0.000004 --lrG=0.0000004 --lrIG=0.0000004 --out_dir=output
+python3 main_arrhythmia.py --batch_size=30 --z_dim=50 --h_dim=128 --gpu_ids=0  --input_size=274 --iter_gan=1000000 --llk_way=eig --dataset=arrhythmia --lrD=0.000004 --lrG=0.0000004 --lrIG=0.0000004 --out_dir=output
 ```
 
 Or
 ```
-nohup python3 main_arrhythmia.py --batch_size=30 --z_dim=50 --h_dim=128 --gpu_ids=0  --input_size=274 --iter_gan=200000 --llk_way=eig --dataset=arrhythmia --lrD=0.000004 --lrG=0.0000004 --lrIG=0.0000004 --out_dir=output  &
+nohup python3 main_arrhythmia.py --batch_size=30 --z_dim=50 --h_dim=128 --gpu_ids=0  --input_size=274 --iter_gan=1000000 --llk_way=eig --dataset=arrhythmia --lrD=0.000004 --lrG=0.0000004 --lrIG=0.0000004 --out_dir=output  &
 ```
 
