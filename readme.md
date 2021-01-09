@@ -1,4 +1,4 @@
-# Demo code for GAN Implicit likelihood estimation
+# GAN Implicit likelihood estimation
 
 pytorch demo  implementation of paper [Estimate the Implicit Likelihoods of GANs with Application to Anomaly Detection, WWW2020]
 
@@ -37,7 +37,7 @@ nohup python3 main_sim.py --batch_size=50 --z_dim=2 --lrD=0.000004 --lrG=0.00000
 ```
 
 
-## Arrhythmia data
+##
 step1:
 ```
 cd model_arrhythmia/
@@ -56,3 +56,4 @@ Or
 ```
 nohup python3 main_arrhythmia.py --batch_size=30 --z_dim=50 --h_dim=128 --gpu_ids=0  --input_size=274 --iter_gan=200000 --llk_way=eig --dataset=arrhythmia --lrD=0.000004 --lrG=0.0000004 --lrIG=0.0000004 --out_dir=output  &
 ```
+

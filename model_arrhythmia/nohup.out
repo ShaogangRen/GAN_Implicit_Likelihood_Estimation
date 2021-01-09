@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "main_arrhythmia.py", line 714, in <module>
+    main()
+  File "main_arrhythmia.py", line 670, in main
+    opt = Options().parse()
+  File "/Users/v_renshaogang/Desktop/Must_Done_Github/WWW_Code_Likelihood_InvGAN_Stable/github/model_arrhythmia/options.py", line 153, in parse
+    torch.cuda.set_device(self.opt.gpu_ids[0])
+  File "/Users/v_renshaogang/anaconda3/envs/mypython3/lib/python3.7/site-packages/torch/cuda/__init__.py", line 300, in set_device
+    torch._C._cuda_setDevice(device)
+AttributeError: module 'torch._C' has no attribute '_cuda_setDevice'
