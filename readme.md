@@ -22,7 +22,7 @@ cd model_simulation/
 
 step2:
 ```
-python3 main_sim.py
+python3 sim_2_6.py
 ```
 
 step3:
