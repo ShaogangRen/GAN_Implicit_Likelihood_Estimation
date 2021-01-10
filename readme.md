@@ -44,6 +44,7 @@ cd model_arrhythmia/
 ```
 
 step2:
+
 Downlowd ALAD(https://github.com/houssamzenati/Adversarially-Learned-Anomaly-Detection), unzip and change the folder name to 'ALAD'.
 
 
