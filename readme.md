@@ -1,6 +1,6 @@
 # GAN Implicit likelihood estimation
 
-pytorch demo  implementation of paper [Estimate the Implicit Likelihoods of GANs with Application to Anomaly Detection, WWW2020]
+PyTorch demo  implementation of paper [Estimate the Implicit Likelihoods of GANs with Application to Anomaly Detection, WWW2020]
 
 ## Citation
 If it is useful for your research or work, please cite our paper
